@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- CSS internal bikin folder dan mangil css -->
+</head>
+<body>
+
+    <style>
+        #parent {font-size: Sem;}
+        .child {font-weight: bold;}
+
+        #main-content {border:2px dashed chocolate;}
+        #main-content > .text-large {font-size: large;}
+        #main-content > .text-small {font-size: smaller ;}
+    </style>
+    <h1>CSS Variabel</h1>
+    <p id="parent">Thiis is id parent</p>
+    <p id="child"> This is child text</p>
+
+    <div id="main-content">
+        <p class="text-large">large</p>
+        <p class="text-small">small</p>
+    </div>
+
+    <h1>Padding</h1>
+    <div id="parents">
+        <p>Hehehehehehhe</p>
+    </div>
+    <style>
+        #parents{
+            padding: 10px 20px 30px 40px;
+            border: 6px solid plum;
+
+            margin: 10px 25px 30px 40px;
+
+            background-color: blueviolet;
+        }
+    </style>
+
+   <h1>Element Form</h1>
+   <p> Form method GET</p>
+   <!-- <yg kita isi bakal terlihat di link jika tipe post itu gakda>  -->
+   <p>
+        <label>Input TExt</label>
+        <input type="text" value="Rai" name="fullname" />
+   </p></form>
+   <p>
+        <label>Input Emal </label>
+        <input type="email" value="" name="email" />
+   </p>
+   <p>
+        <label>Input Checkbox</label>
+        <input type="checkbox" value="" name="check1" />
+        <input type="checkbox" value="" name="check2" />
+   </p>
+   <p>
+    <label>Input Radio</label>
+    <input type="radio" value="p" name="radio1" />
+    <input type="radio" value="l" name="radio1" />
+    <!-- samain name nya biar bisa dipilih salah satu />  -->
+</p>
+
+<p>
+    <label>Input Color: </label>
+    <input type="Color" value="'" name="color" />
+</p>
+
+<p>
+    <label> Input PASSWORD</label>
+    <input type="password" value="" name="password">
+</p>
+
+<p>
+    <label> Textarea</label>
+    <textarea name="address" id="" cols="30" rows="10">The moon is beautiful, isn't it?</textarea>
+</p>
+
+<p>
+    <label> Select Box</label>
+    <select name="ortu">
+        <option value="">Pilih Salah Satu</option>
+        <option value="ayah">Ayah</option>
+        <option value="ibu">ibu</option>
+    </select>
+</p>
+
+<p>Button</p>
+    <button type="button">Tombol Biasa</button>
+    <button type="reset">Tombol Reset</button>
+    <button type="submit">Tombol submit</button>
+
+
+
+</form>
+</body>
+</html>

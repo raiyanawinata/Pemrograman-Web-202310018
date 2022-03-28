@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/564x/cf/29/ae/cf29ae55f370098d9971ff0bbd5f22e9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+#register {
+    background-color: transparent;
+    margin: 0 auto;
+    width: 25%;
+    box-shadow: 2px;
+    outline: 2px double purple;
+    border: 2px inset rgb(77, 6, 77);
+    margin-top: 50px;
+    padding: 20px;
+}
+#register > h1 {
+    font-family: fantasy;
+    color: purple;
+    text-align: center;
+}
+.box {
+    font-family: monospace;
+    border: 2px inset purple;
+    color: purple;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+.box > input {
+    font-family: monospace;
+    border: 2px inset purple;
+    color: purple;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.radio{
+    font-family: monospace;
+    border: 2px inset purple;
+    color: purple;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+
+.address{
+    font-family: monospace;
+    border: 2px inset purple;
+    color: purple;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+
+.address > input {
+    font-family: monospace;
+    border: 2px inset purple;
+    color: purple;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.button-group > button {
+    padding: 10px 15px;
+}
+
+/* .button-group > button[type=submit]{
+    background-color: blue;
+    color: white;
+} */
+
+.btn-blue {
+    font-family: monospace;
+    background-color: rgb(107, 8, 107);
+    color: white;
+    font-weight: bold;
+}
+
+.btn-p {
+    font-family: monospace;
+    background-color: rgb(107, 8, 107);
+    color: white;
+    font-weight: bold;
+}
